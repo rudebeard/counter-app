@@ -2,3 +2,39 @@
   padding: 0;
   margin: 0;
 }
+body{
+  background-image: url(./images/winter.jpeg);
+  box-sizing: border-box;
+  padding-left: 800px;
+  background-size: cover;
+  padding-top: 300px;
+}
+h1{
+  color: red;
+  font-size: 68px;
+  font-weight: 600;
+  text-shadow: 5px 5px 8px darkgray;
+}
+#count-el{
+  color: rgb(255, 0, 0);
+  font-size: 75px;
+  padding-top: 45px;
+  padding-left: 260px;
+}
+#increment-btn{
+  width: 250px;
+  height: 48px;
+  font-size: 25px;
+  color: red;
+  letter-spacing: 1px;
+  margin-left: 150px;
+  margin-top: 150px;
+  border-radius: 10px;
+
+}
+#increment-btn:hover{
+  color: whitesmoke;
+  background-color: red;
+  cursor: pointer;
+  transition: 0.5s;
+}
