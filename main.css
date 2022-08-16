@@ -8,6 +8,7 @@ body{
   padding-left: 800px;
   background-size: cover;
   padding-top: 300px;
+  position: relative;
 }
 h1{
   color: red;
@@ -56,4 +57,10 @@ h1{
     background-color: red;
     cursor: pointer;
     transition: 0.5s;
+  }
+  #save-el{
+    font-size: 45px;
+    color: yellow;
+    text-transform: uppercase;
+    
   }
